@@ -1,0 +1,22 @@
+{
+    "development": {
+      "username": "DB_USER",
+      "password": "DB_PASSWORD",
+      "database": "DB_NAME",
+      "host": "DB_HOST",
+      "dialect": "mysql",
+      "port": 3306
+    },
+    "test": {
+      "username": "DB_USER",
+      "password": "DB_PASSWORD",
+      "database": "TEST_DB_NAME",
+      "host": "DB_HOST",
+      "dialect": "mysql",
+      "port": 3306
+    },
+    "production": {
+      "use_env_variable": "JAWSDB_URL",
+      "dialect": "mysql"
+    }
+  }
